@@ -140,11 +140,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chapter1.cpp" />
+    <ClCompile Include="chooseClass.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="gameOver.cpp" />
+    <ClCompile Include="gameStart.cpp" />
+    <ClCompile Include="Intro.cpp" />
+    <ClCompile Include="quest.cpp" />
+    <ClCompile Include="Start.cpp" />
     <ClCompile Include="TroubleInTiki.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="chapter1.h" />
+    <ClInclude Include="chooseClass.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="gameOver.h" />
     <ClInclude Include="gameStart.h" />
     <ClInclude Include="Intro.h" />
+    <ClInclude Include="quest.h" />
+    <ClInclude Include="Start.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
